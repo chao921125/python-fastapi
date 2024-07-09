@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+from fastapi import Query
 
 
 class Request(BaseModel):
@@ -6,5 +7,7 @@ class Request(BaseModel):
     name: str
     age: int = 18
     sex: int = 1
-    address: str = ""
-    description: str = ""
+    email: str = Query(default="", max_length=10)
+    address: str = Query(default="", max_length=100)
+    description: str = Query(default="", max_length=100)
+    desc: str = Query(default="", max_length=100, deprecated=True,)

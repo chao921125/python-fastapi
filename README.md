@@ -1,9 +1,11 @@
 ```shell
-# 生成
-pip3 freeze > requirements.txt
+# conda
 
+# 全环境 生成
+pip3 freeze > requirements.txt
+# 根据项目 生成
 pip3 install pipreqs
-pipreqs .
+pipreqs ./ --encoding=utf-8 --force
 # 安装
 pip3 install -r requirements.txt
 

@@ -1,4 +1,14 @@
 ```shell
+# conda
+
+# 全环境 生成
+pip3 freeze > requirements.txt
+# 根据项目 生成
+pip3 install pipreqs
+pipreqs ./ --encoding=utf-8 --force
+# 安装
+pip3 install -r requirements.txt
+
 # 运行
 uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 uvicorn main:app --host 0.0.0.0 --port 80
@@ -36,3 +46,10 @@ uvicorn main:app --reload
 # None 可选参数下的默认值，不写默认值则必传
 @app.post("/url/")
 ```
+
+|                                                                         |
+|-------------------------------------------------------------------------|
+| [三方库](https://github.com/vinta/awesome-python)                          |
+| [算法](https://github.com/TheAlgorithms/Python)                           |
+| [算法](https://github.com/tensorflow/tensorflow)                          |
+| [系统设计](https://github.com/donnemartin/system-design-primer/tree/master) |

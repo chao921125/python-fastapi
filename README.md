@@ -13,7 +13,7 @@ pip3 install -r requirements.txt
 uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 uvicorn main:app --host 0.0.0.0 --port 80
 
-# API DOC
+# API DOCpi
 /docs
 
 # dev

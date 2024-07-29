@@ -53,3 +53,6 @@ uvicorn main:app --reload
 | [算法](https://github.com/TheAlgorithms/Python)                           |
 | [算法](https://github.com/tensorflow/tensorflow)                          |
 | [系统设计](https://github.com/donnemartin/system-design-primer/tree/master) |
+
+###### book
+https://gitee.com/xiaozhong1988/fastapi_tutorial

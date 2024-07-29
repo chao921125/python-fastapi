@@ -1,0 +1,25 @@
+name: deploy
+on:
+  push:
+    branches:
+      - "dev"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build and Publish
+        uses: VaultVulp/gp-docker-action@1.6.0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          image-name: fastapi-admin
+  deploy:
+    runs-on: ubuntu-latest
+    needs:
+      - build
+    steps:
+      - name: Deploy fastapi-admin
+        uses: steebchen/kubectl@v2.0.0
+        with:
+          config: ${{ secrets.KUBE_CONFIG }}
+          command: rollout restart deployment fastapi-admin

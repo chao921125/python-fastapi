@@ -13,7 +13,7 @@ pip3 install -r requirements.txt
 uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 uvicorn main:app --host 0.0.0.0 --port 80
 
-# API DOC
+# API DOCpi
 /docs
 
 # dev
@@ -53,3 +53,10 @@ uvicorn main:app --reload
 | [算法](https://github.com/TheAlgorithms/Python)                           |
 | [算法](https://github.com/tensorflow/tensorflow)                          |
 | [系统设计](https://github.com/donnemartin/system-design-primer/tree/master) |
+
+###### book
+FastAPI Web开发入门、进阶与实战
+Python FastAPI Web开发从入门到项目实战
+利用FastAPI构建Python微服务
+
+https://gitee.com/xiaozhong1988/fastapi_tutorial

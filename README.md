@@ -13,6 +13,11 @@ pip3 install -r requirements.txt
 uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 uvicorn main:app --host 0.0.0.0 --port 80
 
+# 后台运行
+nohup uvicorn main:app --host 0.0.0.0 --port 8000 &
+ps aux | grep uvicorn
+kill <PID>
+
 # API DOCpi
 /docs
 
@@ -60,3 +65,9 @@ Python FastAPI Web开发从入门到项目实战
 利用FastAPI构建Python微服务
 
 https://gitee.com/xiaozhong1988/fastapi_tutorial
+
+| https://github.com/mjhea0/awesome-fastapi                                             |
+|---------------------------------------------------------------------------------------|
+| [full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) |
+| [ai jina](https://github.com/jina-ai/jina)                                            |
+| []()                                                                                  |

@@ -64,6 +64,9 @@ FastAPI Web开发入门、进阶与实战
 Python FastAPI Web开发从入门到项目实战
 利用FastAPI构建Python微服务
 
+https://fastapi.tiangolo.com/zh/reference/fastapi
+https://github.com/fastapi/full-stack-fastapi-template/blob/master/backend/app/main.py
+
 https://gitee.com/xiaozhong1988/fastapi_tutorial
 
 | https://github.com/mjhea0/awesome-fastapi                                             |

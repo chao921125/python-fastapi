@@ -11,6 +11,7 @@ python-dotenv==1.0.1
 python_bcrypt==0.3.2
 redis==5.0.8
 SQLAlchemy==2.0.31
+SQLModel==0.0.22
 starlette==0.38.5
 tortoise==0.1.1
 uvicorn==0.30.6

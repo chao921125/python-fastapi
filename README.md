@@ -69,8 +69,11 @@ https://github.com/fastapi/full-stack-fastapi-template/blob/master/backend/app/m
 
 https://gitee.com/xiaozhong1988/fastapi_tutorial
 
-| https://github.com/mjhea0/awesome-fastapi                                             |
-|---------------------------------------------------------------------------------------|
-| [full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) |
-| [ai jina](https://github.com/jina-ai/jina)                                            |
-| []()                                                                                  |
+| https://github.com/mjhea0/awesome-fastapi                                                                        |
+|------------------------------------------------------------------------------------------------------------------|
+| [full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template)                            |
+| [ai jina](https://github.com/jina-ai/jina)                                                                       |
+| [fastapi-amis-admin](https://github.com/amisadmin/fastapi-amis-admin/tree/master)                                |
+| [kinit](https://github.com/vvandk/kinit/tree/master)                                                             |
+| [dash-fastapi-admin](https://gitee.com/insistence2022/dash-fastapi-admin/tree/master/dash-fastapi-backend)       |
+| []()                                                                                                             |
